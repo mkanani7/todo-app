@@ -32,7 +32,7 @@ A Django REST Framework backend for a simple to-do application with JWT authenti
 3. Install dependencies
 
 ```bash
-cd /home/user/projects/python/to-do-app
+cd ./to-do-app
 python -m venv .venv
 source .venv/bin/activate
 pip install -e .
@@ -41,7 +41,7 @@ pip install -e .
 ## Run the Server
 
 ```bash
-cd /home/user/projects/python/to-do-app/to_do_server
+cd ./to-do-app/to_do_server
 python manage.py migrate
 python manage.py runserver
 ```
@@ -98,15 +98,12 @@ You can also view the raw schema at:
 
 - http://127.0.0.1:8000/api/schema/
 
-## Swagger Screenshot
-
-If you want to include a screenshot of the Swagger UI, place it in the repository and add it here:
 
 ## Testing
 
 Run tests with:
 
 ```bash
-cd /home/user/projects/python/to-do-app/to_do_server
+cd ./to-do-app/to_do_server
 python manage.py test accounts
 ```
