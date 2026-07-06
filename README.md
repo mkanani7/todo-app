@@ -102,10 +102,6 @@ You can also view the raw schema at:
 
 If you want to include a screenshot of the Swagger UI, place it in the repository and add it here:
 
-![Swagger UI](docs/swagger-ui.png)
-
-> Replace the image path above with your actual screenshot once you add it.
-
 ## Testing
 
 Run tests with:
